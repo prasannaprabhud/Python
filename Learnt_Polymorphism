@@ -1,0 +1,30 @@
+class Children:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+
+  def move(self):
+    print("Play!")
+
+class Students:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+
+  def move(self):
+    print("Study!")
+
+class Employer:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+
+  def move(self):
+    print("Work!")
+
+Children1   = Children("", "")
+Students1  = Students("", "")
+Employer1 = Employer("", "")
+
+for x in (Children1, Students1, Employer1):
+  x.move()
